@@ -13,6 +13,7 @@ function App() {
     const options = ["rock", "paper", "scissors"]
     let rand = options[Math.floor(Math.random()*3)]
         console.log(rand)
+        document.title = `${rand}`
     
         let btn1 = document.getElementById("btn1").textContent.toLowerCase()
         if(btn1  === rand){
@@ -30,6 +31,7 @@ function App() {
     const options = ["rock", "paper", "scissors"]
     let rand = options[Math.floor(Math.random()*3)]
         console.log(rand)
+        document.title = `${rand}`
     
         let btn2 = document.getElementById("btn2").textContent.toLowerCase()
         if(btn2  === rand){
@@ -48,6 +50,7 @@ function App() {
     const options = ["rock", "paper", "scissors"]
     let rand = options[Math.floor(Math.random()*3)]
         console.log(rand)
+        document.title = `${rand}`
     
         let btn3 = document.getElementById("btn3").textContent.toLowerCase()
         if(btn3  === rand){
