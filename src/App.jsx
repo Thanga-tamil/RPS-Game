@@ -80,6 +80,10 @@ function App() {
        </div>
        <b id="wins">Total Wins : {count}</b><br/> 
       <button onClick={fresh} id="restart">Restart</button>
+
+      <p id="name">
+      @thangatamil1177@gmail.com
+      </p>
    </>
   )
 }

@@ -58,6 +58,7 @@ body {
   color: grey;
   margin-bottom: 20px;
   margin-top: -120px;
+  margin-left: 43px;
 }
 
 button {
@@ -79,16 +80,18 @@ color : white;
 }
 
 #result {
-  margin-top: 20px;
+  margin-top: 80px;
   font-size: 24px;
+  margin-left: 15px;
   font-weight: bold;
   color: black;
+
 }
 
 #wins {
   font-size: 18px;
-  margin-top: 1110px;
   color: grey;
+  margin-left: 15px;
 }
 
 #restart {
@@ -106,5 +109,13 @@ color : white;
 
 #restart:hover {
   background-color: rgb(100, 16, 56);
+}
+
+
+#name {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  right: 15px; /* Adjust as needed */
+  color: grey;
 }
 
